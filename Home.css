@@ -1,6 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(255,255,255,0.65), rgba(255,255,255,0.65));
-  background-position: 50% 50%;
+  background-image: linear-gradient(0deg, rgba(255,255,255,0.65), rgba(255,255,255,0.65)), url("/images/08f98b6a4e381db3fd35e655d96e900ac4bb7f62accbe23eb482b83afeb98a8ce80db7c2a6223d7b7540212c99d1e7ae417f8ef5441e0eb22fd22d_1280.jpg");
 }
 
 .u-section-1 .u-sheet-1 {
@@ -29,6 +28,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+  }
+
   .u-section-1 .u-sheet-1 {
     min-height: 466px;
   }
@@ -276,11 +279,6 @@
 
   .u-section-2 .u-layout-cell-1 {
     min-height: 100px;
-  }
-
-  .u-section-2 .u-container-layout-1 {
-    padding-top: 0;
-    padding-bottom: 0;
   }
 
   .u-section-2 .u-image-1 {
@@ -794,12 +792,6 @@
     min-height: 1000px;
   }
 
-  .u-section-4 .u-container-layout-1 {
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-  }
-
   .u-section-4 .u-image-1 {
     object-position: 50% 20.47%;
     background-position: 50% 20.47%;
@@ -833,17 +825,13 @@
     min-height: 5069px;
   }
 
-  .u-section-4 .u-container-layout-3 {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
   .u-section-4 .u-layout-cell-4 {
     min-height: 100px;
   }
 
   .u-section-4 .u-container-layout-4 {
-    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .u-section-4 .u-container-layout-5 {
@@ -1014,6 +1002,7 @@
     margin-right: 0;
   }
 } .u-section-5 {
+  background-image: url("/images/b92409e86f085a78846db10a5ec306e6b8c26bd1acf54f8151c0ca6e65b77d5334c75802173fa971d300cf9e6658356a30f6afc9eb6dced0a0c6b2_1280.jpg");
   background-position: 50% 50%;
 }
 
@@ -1461,11 +1450,6 @@
     min-height: 100px;
   }
 
-  .u-section-7 .u-container-layout-1 {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
   .u-section-7 .u-text-4 {
     height: 25px;
     margin-top: 20px;
@@ -1583,6 +1567,7 @@
     margin-right: 20px;
   }
 } .u-section-8 {
+  background-image: url("/images/2a9b3686c2cfdcc6f1761306e44c4b2c99ab7b10690b089d0b14b2cf081c85265a0c7239c0ed3828348a689987dc47296cbcec673d19bfc694e678_1280.jpg");
   background-position: 50% 50%;
 }
 
